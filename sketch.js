@@ -56,6 +56,7 @@ function setup() {
 
 function draw() {
   background(180);
+   image(backgroundImg, 0, 0, width, height);
 
   Engine.update(engine);
 
